@@ -1,0 +1,16 @@
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.csprojAssemblyReference.cache
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.AssemblyInfoInputs.cache
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.AssemblyInfo.cs
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.RazorTargetAssemblyInfo.cache
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\obj\Debug\netcoreapp3.1\staticwebassets\APIGateway.StaticWebAssets.Manifest.cache
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\obj\Debug\netcoreapp3.1\staticwebassets\APIGateway.StaticWebAssets.xml
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\bin\Debug\netcoreapp3.1\ocelot.json
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\bin\Debug\netcoreapp3.1\APIGateway.deps.json
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\bin\Debug\netcoreapp3.1\APIGateway.dll
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\bin\Debug\netcoreapp3.1\APIGateway.pdb
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.dll
+C:\Users\vbhardwaj\source\repos\SimpleMicroService\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.pdb

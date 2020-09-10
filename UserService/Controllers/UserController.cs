@@ -6,12 +6,16 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using UserService.Models;
+using Microsoft.AspNetCore.Mvc.Versioning.Conventions;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace UserService.Controllers
 {
     [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
+    [ApiVersion("3.0")]
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -26,6 +30,20 @@ namespace UserService.Controllers
         // GET: api/<UserController>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> Get()
+        {
+            return await _db.Users.ToListAsync();
+        }
+
+        [HttpGet]
+        [MapToApiVersion("1.0")]
+        public async Task<ActionResult<IEnumerable<User>>> GetV1()
+        {
+            return await _db.Users.ToListAsync();
+        }
+
+        [HttpGet]
+        [MapToApiVersion("2.0")]
+        public async Task<ActionResult<IEnumerable<User>>> GetV2()
         {
             return await _db.Users.ToListAsync();
         }
