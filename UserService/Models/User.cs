@@ -11,5 +11,10 @@ namespace UserService.Models
         public string Name { get; set; }
         public string Address { get; set; }
         public string Contact { get; set; }
+
+        public static implicit operator User(List<User> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

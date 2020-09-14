@@ -30,7 +30,8 @@ namespace UserService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddApiVersioning(v =>{
+            services.AddApiVersioning(v =>
+            {
                 v.DefaultApiVersion = new ApiVersion(3, 0);
                 v.ApiVersionReader = new HeaderApiVersionReader("api-version");
                 v.AssumeDefaultVersionWhenUnspecified = true;
@@ -45,8 +46,8 @@ namespace UserService
             services.AddDbContext<ApplicationDbContext>(
             options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddMvc(options => options.OutputFormatters.Add(new CsvMediaTypeFormatter()));
         }
-
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
