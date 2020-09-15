@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace UserService
 {
-    public class CsvMediaTypeFormatter : TextOutputFormatter
+    public class CustomCsvFormatter : TextOutputFormatter
     {
 
-        public CsvMediaTypeFormatter()
+        public CustomCsvFormatter()
         {
             SupportedMediaTypes.Add(Microsoft.Net.Http.Headers.MediaTypeHeaderValue.Parse("text/csv"));
             SupportedEncodings.Add(Encoding.UTF8);

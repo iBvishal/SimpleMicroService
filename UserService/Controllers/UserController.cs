@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using UserService.Models;
 using Microsoft.AspNetCore.Mvc.Versioning.Conventions;
 using System.Text;
+using System.Net;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -60,28 +61,52 @@ namespace UserService.Controllers
 
         // POST api/<UserController>
         [HttpPost]
-        public IActionResult CreateUser(User user)
+        public IActionResult CreateUser(IEnumerable<User> user)
         {
             try
             {
-                var usr = new User
+                foreach (var u in user)
                 {
-                    Name = user.Name,
-                    Address = user.Address,
-                    Contact = user.Contact
-                };
-                _db.Users.Add(usr);
-                _db.SaveChanges();
+                    var usr = new User
+                    {
+                        Name = u.Name,
+                        Address = u.Address,
+                        Contact = u.Contact
+                    };
+                    _db.Users.Add(usr);
+                    _db.SaveChanges();
+                }
                 return StatusCode(
                     StatusCodes.Status201Created,
                     user);
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 return StatusCode(
                     StatusCodes.Status500InternalServerError,
                     e);
             }
+
+            //try
+            //{
+            //    var usr = new User
+            //    {
+            //        Name = user.Name,
+            //        Address = user.Address,
+            //        Contact = user.Contact
+            //    };
+            //    _db.Users.Add(usr);
+            //    _db.SaveChanges();
+            //    return StatusCode(
+            //        StatusCodes.Status201Created,
+            //        user);
+            //}
+            //catch (Exception e)
+            //{
+            //    return StatusCode(
+            //        StatusCodes.Status500InternalServerError,
+            //        e);
+            //}
         }
 
         // PUT api/<UserController>/5
