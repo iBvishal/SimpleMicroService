@@ -6,12 +6,15 @@
       "DownStreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "63357"
+          "Port": "5001"
         }
       ],
       "UpstreamPathTemplate": "/user",
-      "UpstreamHttpMethod":  ["GET", "POST"]
+      "UpstreamHttpMethod": [ "GET" ]
     }
-  ]
-
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5000"
+  }
 }
+

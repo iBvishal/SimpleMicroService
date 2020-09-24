@@ -490,17 +490,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vbhardwaj\\.nuget\\packages\\": {}
+    "C:\\Users\\vbhardwaj\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vbhardwaj\\source\\repos\\SimpleMicroService\\APIGateway\\APIGateway.csproj",
+      "projectUniqueName": "C:\\Users\\vbhardwaj\\source\\first\\SimpleMicroService\\APIGateway\\APIGateway.csproj",
       "projectName": "APIGateway",
-      "projectPath": "C:\\Users\\vbhardwaj\\source\\repos\\SimpleMicroService\\APIGateway\\APIGateway.csproj",
+      "projectPath": "C:\\Users\\vbhardwaj\\source\\first\\SimpleMicroService\\APIGateway\\APIGateway.csproj",
       "packagesPath": "C:\\Users\\vbhardwaj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vbhardwaj\\source\\repos\\SimpleMicroService\\APIGateway\\obj\\",
+      "outputPath": "C:\\Users\\vbhardwaj\\source\\first\\SimpleMicroService\\APIGateway\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\vbhardwaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

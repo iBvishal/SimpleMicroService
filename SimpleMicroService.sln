@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "UserService\UserService.csproj", "{B6B0AE99-9C6D-4DEB-BDD1-15AED04D3328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{5CC0008E-7EDC-4A83-8A15-71A8547F6BD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotGateway", "OcelotGateway\OcelotGateway.csproj", "{AF70C73B-668B-4CF8-9F5D-20DCA6CF2BDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{B6B0AE99-9C6D-4DEB-BDD1-15AED04D3328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B0AE99-9C6D-4DEB-BDD1-15AED04D3328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B0AE99-9C6D-4DEB-BDD1-15AED04D3328}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5CC0008E-7EDC-4A83-8A15-71A8547F6BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5CC0008E-7EDC-4A83-8A15-71A8547F6BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5CC0008E-7EDC-4A83-8A15-71A8547F6BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5CC0008E-7EDC-4A83-8A15-71A8547F6BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF70C73B-668B-4CF8-9F5D-20DCA6CF2BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF70C73B-668B-4CF8-9F5D-20DCA6CF2BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF70C73B-668B-4CF8-9F5D-20DCA6CF2BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF70C73B-668B-4CF8-9F5D-20DCA6CF2BDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
