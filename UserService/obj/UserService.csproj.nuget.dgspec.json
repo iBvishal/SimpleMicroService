@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vbhardwaj\\source\\first\\SimpleMicroService\\UserService\\UserService.csproj": {}
+    "C:\\Users\\vbhardwaj\\source\\containerize\\SimpleMicroService\\UserService\\UserService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vbhardwaj\\source\\first\\SimpleMicroService\\UserService\\UserService.csproj": {
+    "C:\\Users\\vbhardwaj\\source\\containerize\\SimpleMicroService\\UserService\\UserService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vbhardwaj\\source\\first\\SimpleMicroService\\UserService\\UserService.csproj",
+        "projectUniqueName": "C:\\Users\\vbhardwaj\\source\\containerize\\SimpleMicroService\\UserService\\UserService.csproj",
         "projectName": "UserService",
-        "projectPath": "C:\\Users\\vbhardwaj\\source\\first\\SimpleMicroService\\UserService\\UserService.csproj",
+        "projectPath": "C:\\Users\\vbhardwaj\\source\\containerize\\SimpleMicroService\\UserService\\UserService.csproj",
         "packagesPath": "C:\\Users\\vbhardwaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vbhardwaj\\source\\first\\SimpleMicroService\\UserService\\obj\\",
+        "outputPath": "C:\\Users\\vbhardwaj\\source\\containerize\\SimpleMicroService\\UserService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

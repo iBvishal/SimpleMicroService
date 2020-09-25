@@ -10,6 +10,32 @@
         }
       ],
       "UpstreamPathTemplate": "/user",
+      "UpstreamHttpMethod": [ "Get", "Post"]
+    },
+    {
+      //delete single user
+      "DownstreamPathTemplate": "/api/user/{idToDelete}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7001
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{idToDelete}",
+      "UpstreamHttpMethod": [ "Delete" ]
+    },
+    {
+      //get single user
+      "DownstreamPathTemplate": "/api/user/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7001
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{id}",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ],

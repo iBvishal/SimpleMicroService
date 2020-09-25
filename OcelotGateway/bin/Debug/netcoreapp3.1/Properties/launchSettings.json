@@ -19,8 +19,8 @@
     },
     "OcelotGateway": {
       "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "/user",
+      "launchBrowser": false,
+      "launchUrl": "",
       "applicationUrl": "http://localhost:7000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -33,4 +33,5 @@
         "useSSL": true
       }
     }
+  }
 }
